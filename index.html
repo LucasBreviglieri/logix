@@ -71,6 +71,21 @@
             transform: scale(1.05);
             
         }
+        /* Clarear a imagem de fundo do título mantendo a cor #343B5D */
+        .carousel-caption {
+            background-color: rgba(52, 59, 93, 0.9); /* Mantém a cor com 70% de opacidade */
+        }
+
+        /* Diminuir a altura do carrossel em 15% */
+        #header-carousel .carousel-item {
+            height: 55vh; /* Reduzido para 85% da altura da viewport */
+        }
+
+        #header-carousel img {
+            max-height: 55vh; /* Mantém a imagem proporcional à nova altura */
+            width: auto; /* Mantém a proporção da largura */
+        }
+
 
         </style>
 
@@ -94,52 +109,88 @@
     <!-- Navbar End -->
 
 
-    <!-- Início do Carrossel -->
-    <div class="container-fluid p-0 mb-5" id="inicio">
-        <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img class="w-50%" src="img/logo-3.png" alt="Imagem">
-                    <div class="carousel-caption">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-7 pt-5">
-                                    <h1 class="display-4 text-white mb-4 animated slideInDown">Oferecemos os melhores
-                                        serviços de reparo de ar-condicionado</h1>
-                                    <a href="https://wa.me/5519992083309"
-                                        class="btn btn-primary py-3 px-5 animated slideInDown">Saiba Mais</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img class="w-50%" src="img/logo-3.png" alt="Imagem">
-                    <div class="carousel-caption">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-7 pt-5">
-                                    <h1 class="display-4 text-white mb-4 animated slideInDown">Serviços de qualidade em
-                                        aquecimento e ar-condicionado</h1>
-                                    <a href="https://wa.me/5519992083309"
-                                        class="btn btn-primary py-3 px-5 animated slideInDown">Saiba Mais</a>
-                                </div>
+<!-- Início do Carrossel -->
+<div class="container-fluid p-0 mb-5" id="inicio">
+    <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="w-50%" src="img/logo-3.png" alt="Imagem">
+                <div class="carousel-caption">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-7 pt-5">
+                                <h1 class="display-4 text-white mb-4 animated slideInDown">Manutenção Preditiva Preventiva e Corretiva em Câmaras Frigorifica</h1>
+                                <a href="https://wa.me/5519992083309" class="btn btn-primary py-3 px-5 animated slideInDown">Saiba Mais</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Anterior</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#header-carousel" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Próximo</span>
-            </button>
+            <div class="carousel-item">
+                <img class="w-50%" src="img/logo-3.png" alt="Imagem">
+                <div class="carousel-caption">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-7 pt-5">
+                                <h1 class="display-4 text-white mb-4 animated slideInDown">Instalação & Manutenção Elétrica</h1>
+                                <a href="https://wa.me/5519992083309" class="btn btn-primary py-3 px-5 animated slideInDown">Saiba Mais</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="w-50%" src="img/logo-3.png" alt="Imagem">
+                <div class="carousel-caption">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-7 pt-5">
+                                <h1 class="display-4 text-white mb-4 animated slideInDown">Controle e Automação</h1>
+                                <a href="https://wa.me/5519992083309" class="btn btn-primary py-3 px-5 animated slideInDown">Saiba Mais</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="w-50%" src="img/logo-3.png" alt="Imagem">
+                <div class="carousel-caption">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-7 pt-5">
+                                <h1 class="display-4 text-white mb-4 animated slideInDown">Manutenção Preditiva Preventiva & Corretiva Refrigeração</h1>
+                                <a href="https://wa.me/5519992083309" class="btn btn-primary py-3 px-5 animated slideInDown">Saiba Mais</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="w-50%" src="img/logo-3.png" alt="Imagem">
+                <div class="carousel-caption">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-7 pt-5">
+                                <h1 class="display-4 text-white mb-4 animated slideInDown">Laudo PMOC</h1>
+                                <a href="https://wa.me/5519992083309" class="btn btn-primary py-3 px-5 animated slideInDown">Saiba Mais</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#header-carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Próximo</span>
+        </button>
     </div>
-    <!-- Fim do Carrossel -->
+</div>
+<!-- Fim do Carrossel -->
 
     <!-- Clients Start -->
 <div class="container-xxl py-5">
