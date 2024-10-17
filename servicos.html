@@ -29,11 +29,23 @@
 <body>
     <style>
         .service-item img {
-    width: 100%; /* Faz a imagem ocupar toda a largura do seu container */
-    height: 200px; /* Define uma altura fixa */
-    object-fit: cover; /* Cobre o espaço mantendo a proporção */
-    object-position: center; /* Centraliza a imagem */
-}
+            width: 100%; /* Faz a imagem ocupar toda a largura do seu container */
+            height: 200px; /* Define uma altura fixa */
+            object-fit: cover; /* Cobre o espaço mantendo a proporção */
+            object-position: center; /* Centraliza a imagem */
+        }
+        @font-face {
+        font-family: 'Conthrax';
+        src: url('fonts/conthrax-sb.otf') format('opentype');
+        font-weight: normal;
+        font-style: normal;
+       
+        }
+
+        body {
+            font-family: 'Conthrax', sans-serif;
+            font-size: 65%; 
+        }
 
     </style>
 
@@ -46,7 +58,7 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
-            <div class="navbar-nav mx-auto bg-light pe-4 py-3 py-lg-0" style="font-size: 18px;">
+            <div class="navbar-nav mx-auto bg-light pe-4 py-3 py-lg-0" style="font-size: 14px;">
                 <a href="index.html" class="nav-item nav-link active">Inicio</a>
                 <a href="sobreNos.html" class="nav-item nav-link">Sobre nós</a>
                 <a href="servicos.html" class="nav-item nav-link">Serviços</a>
@@ -61,8 +73,8 @@
     <div class="container-fluid page-header py-5 mb-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container text-center py-5">
             <h1 class="display-4 text-white animated slideInDown mb-4">Serviços</h1>
-            <nav aria-label="breadcrumb animated slideInDown">
-                <ol class="breadcrumb justify-content-center mb-0">
+            <nav aria-label="breadcrumb animated slideInDown" style="font-size: 14px;">
+                <ol class="breadcrumb justify-content-center mb-0" >
                     <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
                     <li class="breadcrumb-item active" aria-current="page">Serviços</li>
                 </ol>
